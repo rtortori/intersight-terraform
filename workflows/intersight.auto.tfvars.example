@@ -1,12 +1,12 @@
-apikey = "replace with your apikey"
-
+apikey = "replace with your Intersight API key"
+endpoint = "https://intersight.com"
 secretkey = <<EOF
 -----BEGIN RSA PRIVATE KEY-----
 replace with your intersight secret key
 -----END RSA PRIVATE KEY-----
 EOF
 
-organization = "replace with your org id"
+organization = "replace with your organization name (i.e. default)"
 workflow_moid = "replace with your workflow moid"
-roomid = "replace with your webex room id"
 workflowname = "replace with your workflow name"
+roomid = "replace with your webex room id"
